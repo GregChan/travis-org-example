@@ -1,0 +1,22 @@
+{
+  "name": "github-exercise-example",
+  "version": "0.0.1",
+  "description": "An example repository with Travis to demonstrate the capabilities of the CI bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GregChan/github-exercise-example.git"
+  },
+  "author": "Greg Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GregChan/github-exercise-example/issues"
+  },
+  "homepage": "https://github.com/GregChan/github-exercise-example#readme",
+  "dependencies": {
+    "ava": "^2.4.0"
+  }
+}
